@@ -3,4 +3,4 @@
 ##Introduccion
 
 
-<Img srce="imagen 1.jpg" width="25px">
+<img srce="imagen 1.jpg" width="25px">

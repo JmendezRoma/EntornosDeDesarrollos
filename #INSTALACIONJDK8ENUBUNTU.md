@@ -44,7 +44,6 @@ export PATH  <br>
 
 
 
-
 -Eliminando uno a uno las versiones que no me interesaban y finalmente comprobando la version de java (java –version)
-<img src="comprobacion version 8.png">
+<img src="comprobacion version 8.png ">
 

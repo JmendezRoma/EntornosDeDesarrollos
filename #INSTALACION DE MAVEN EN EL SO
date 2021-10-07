@@ -7,8 +7,10 @@ Para instalar la herramienta maven la cual nos puede servir como compresor y ges
 
 1)INSTALAR APACHE MAVEN CON APT:
 Usaremos el siguiente comando “ sudo apt update” para actualizar el indice y luego tecleamos “ sudo apt install maven” para instalar maven.
+<img src="Screenshot from 2021-09-29 20-04-33.png">
 Verificamos la version con “ mvn -version”
 La terminal nos muestra que hemos instalado correctamente la version de maven 3,6,3
+<img src="Screenshot from 2021-09-29 20-04-53.png">
 
 
 2)INSTALAR VERSION PARTICULAR DE APACHE MAVEN
@@ -30,6 +32,7 @@ Para que lo que acabamos d hacer sea funcional con chmod usamos “ sudo chmod +
 
 4)VERIFICACION DE LA VERSION 
 Para comprobar que tenemos la versión que necesitamos probamos con “ mvn -version”
+<img src="Screenshot from 2021-09-29 20-12-24.png">
 
 
  

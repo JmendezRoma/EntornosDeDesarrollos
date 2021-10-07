@@ -3,6 +3,8 @@
 1 INSTALACION
 -El primer paso que tenemos que llevar a cabo es actualizar el sistema
 con el siguiente comando (sudo apt-get update).
+<img src="tarea 1/image.png">
+
 -Luego instalamos openjava jdk con este comando ( sudo apt-get install default-jdk)
 
 

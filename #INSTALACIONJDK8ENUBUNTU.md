@@ -32,7 +32,7 @@ export JRE_HOME   <br>
 export PATH  <br>
 
 
-3 ELIMINACIONES DE VERSIONES POR PROBLEMA DE INCOMPATIBILIDAD
+3 ELIMINACIONES DE VERSIONES POR PROBLEMA DE INCOMPATIBILIDAD<br>
 -A pesar de haber configurado las variables de entorno para que funcionara correctamente la versión que quería, en este caso la 8, no conseguía ningún resultado determinado , así que proseguí a eliminar las versiones que se habían instalado de manera predeterminada y solo dejar la que me interesaba.
 <img src="eliminaciones versiones 11 por incompatibilidad.png">
 <img src="eliminaciones versiones 11 por incompatibilidad.png.png">

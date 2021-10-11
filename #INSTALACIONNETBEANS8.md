@@ -12,10 +12,16 @@ Posteriormente ejecutaremos el siguiente comando en la terminal para instalar ne
 chmod +x jdk-8u111-nb-8_2-linux-x64.sh 
 ./jdk-8u111-nb-8_2-linux-x64.sh
 
+<img src= "Screenshot from 2021-10-11 15-30-18.png">
+<img src= "Screenshot from 2021-10-11 15-31-04.png">
 
 5)ACEPTAR TERMINOS Y CONDICIONES Y ACTUALIZACIONES AUTOMATICAS:
 
 Una vez se nos muestre la pagina de bienvenida del launcher, haga clic en siguiente si no quiere personalizar la instalación. Acepte los términos y condiciones y vuelva a hacer clic en siguiente. También acepte la instalación del servidor GlassFish y las actualizaciones automáticas, seleccione nuevamente siguiente.
 Por ultimo pinche en finalizar.
+
+<img src="Screenshot from 2021-10-11 15-31-09.png">
+<img src="Screenshot from 2021-10-11 15-39-56.png">
+
 
 

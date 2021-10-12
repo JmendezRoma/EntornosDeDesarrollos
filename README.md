@@ -1,1 +1,1 @@
-# EntornosDeDesarrollos estos repositorios se centran en la asignatura.
+# EntornosdeDesarrollo es un repositorio que se centra en la asignatura.

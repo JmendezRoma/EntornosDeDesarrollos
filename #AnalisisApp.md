@@ -45,7 +45,7 @@ geometrico pero no en exceso.<br></p>
 <h2>CASOS DE USO</h2>
 
 <p>Cuando el usuario inicializa la app se muestra un texto predominante con el nombre de la app ("geomapp"), donde posteriormente,<br>
-se nos monstraria la estructura de la <imagen1>, pudiendo el usuario final seleccionar la imagen/es que contiende la figura/as <br>
+se nos monstraria la estructura de la < imagen1 >, pudiendo el usuario final seleccionar la imagen/es que contiende la figura/as <br>
 una por una o varias o inclusive todas a la vez, y obteniendo el resultado dentro de la figura geometrica. Por ultimo, si el usuario<br>
 lo desea, puede o guardar el o los resultados con una imagen de las figuras que haya seleccionado con sus respectivos resultados o<br>
 salir de la app o volver a seleccionar figuras para obtner otros resultados.</p>

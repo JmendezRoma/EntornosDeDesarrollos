@@ -20,6 +20,40 @@
   
   1) Actualizar nuestro índice de paquetes e instalar los correspondientes mediante el comando :"sudo apt update <br>
 sudo apt install libz-dev libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext cmake gcc".<br>
+  <img src="Screenshot from 2021-11-03 22-33-38.png">
+  
+  2)Creacion de un directorio temporal : "mkdir tmp , cd /tmp".
+  <img src="Screenshot from 2021-11-03 22-41-54.png">
+  
+  3)Instalar curl.
+  <img src="Screenshot from 2021-11-03 22-41-54.png">.
+  
+  4)Descarga de versión exacta que queramos instalar de git e incporarla en el directorio establecido.
+  enlace para la descarga de version:  https://mirrors.edge.kernel.org/pub/software/scm/git/ 
+  
+  5)A través de este comando "curl -o git.tar.gz https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.29.3.tar.gz"
+  
+  6) Descomprimimos el archivo con :"tar -zxf git.tar.gz"
+  <img src ="Screenshot from 2021-11-03 22-42-57.png">
+  
+  7)Creamos directorio git :"cd git-*"
+  
+  8)Creación de paquete e instalación :"make prefix=/usr/local all
+  sudo make prefix=/usr/local install"
+  
+  9)sustitución de proceso de shell:" exec bash".
+  <img src="Screenshot from 2021-11-03 22-48-38.png>
+            
+  10)Comprobamos version 2.29.3 :"git --version "
+                                                 
+  Ahora solo tenemos que configurarlo:
+   1) Utilizaremos este comando y deberemos insertar nuestros datos (email y nombre).
+   <img src="Screenshot from 2021-11-03 22-48-38.png>
+  
+  2)Para acceder a nuestro archivo git utilizaremos este comando :"nano ~/.gitconfig".
+  <img src ="Screenshot from 2021-11-03 22-49-05.png">
+ 
+  
   
   
   

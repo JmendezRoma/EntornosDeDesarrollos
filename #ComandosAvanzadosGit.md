@@ -51,7 +51,7 @@ Ejercicio 3
     
     • Mostrar las diferencias entre la primera y la última versión del repositorio. 
     "git diff <codigo hash de la primera version>..HEAD"
-    <img src:"Screenshot from 2021-11-08 15-11-34.png">
+    <img src="Screenshot from 2021-11-08 15-11-34.png">
 
 Ejercicio 4
     • Crea el fichero índice.txt la siguiente línea: 
@@ -75,7 +75,7 @@ Ejercicio 5
     Crear una nueva rama bibliografía y mostrar las ramas del repositorio.
     "  git branch bibliografia
        git branch -av"
-       <img src:"">
+       <img src="Screenshot from 2021-11-08 15-30-58.png">
 
 Ejercicio 6
     • Crear el fichero capitulos/capitulo4.txt y añadir el texto siguiente: 
@@ -123,7 +123,7 @@ Ejercicio 8
     "git branch D- bibliografia"
     • Mostrar de nuevo la historia del repositorio incluyendo todas las ramas. 
     "git log --graph --all --oneline"
-    <img src:"Screenshot from 2021-11-08 15-46-41.png">
+    <img src="Screenshot from 2021-11-08 15-46-41.png">
 
 Ejercicio 9
     • Crear la rama bibliografía. 

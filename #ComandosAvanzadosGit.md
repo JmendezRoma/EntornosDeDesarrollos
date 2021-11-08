@@ -1,12 +1,14 @@
-En mi caso realice una clonacion del repositorio remoto ttps://github.com/jpexpositoh/libro mediante los siguientes comando: “git clone https://github.com/jpexposito/libro.git , cd libro”
+En mi caso realice una clonacion del repositorio remoto ttps://github.com/jpexpositoh/libro mediante los siguientes comando: “git clone https://github.com/jpexposito/libro.git , cd libro”<br>
+<img src = "Screenshot from 2021-11-08 14-54-24.png">
+
 Ejercicio 1
     • Mostrar el historial de cambios del repositorio.  
       “ git log”
     • Crear la carpeta capítulos y crear dentro de ella el fichero capitulo1.txt con el siguiente texto. 
     	Git es un sistema de control de versiones ideado por Linus Torvalds.
       “mkdir capitulos”
-	
-	  “ cat > capitulos/capitulo1.txt”
+
+	“ cat > capitulos/capitulo1.txt”
 
     • Añadir los cambios a la zona de intercambio temporal. 
       “git add .”
@@ -16,7 +18,7 @@ Ejercicio 1
    
    • Volver a mostrar el historial de cambios del repositorio. 
       “git log”
-      <img src:"">
+      <img src="Screenshot from 2021-11-08 14-54-58.png">
 
 Ejercicio 2
     • Crear el fichero capitulo2.txt en la carpeta capítulos con el siguiente texto. 
@@ -32,7 +34,7 @@ El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el reposito
    
    • Mostrar las diferencias entre la última versión y dos versiones anteriores.
       "git diff HEAD~2..HEAD"
-      <img src:"">
+      <img src=" Screenshot from 2021-11-08 15-08-04.png">
 
 Ejercicio 3
     • Crear el fichero capitulo3.txt en la carpeta capítulos con el siguiente texto. 
@@ -49,7 +51,7 @@ Ejercicio 3
     
     • Mostrar las diferencias entre la primera y la última versión del repositorio. 
     "git diff <codigo hash de la primera version>..HEAD"
-    <img src:"">
+    <img src:"Screenshot from 2021-11-08 15-11-34.png">
 
 Ejercicio 4
     • Crea el fichero índice.txt la siguiente línea: 
@@ -67,7 +69,7 @@ Ejercicio 4
     
     • Mostrar quién ha hecho cambios sobre el fichero indice.txt. 
       "git annotate indice.txt"
-      <img src:"">
+      <img src= "Screenshot from 2021-11-08 15-25-36.png">
 
 Ejercicio 5
     Crear una nueva rama bibliografía y mostrar las ramas del repositorio.
@@ -88,36 +90,79 @@ Ejercicio 6
     
     • Mostrar la historia del repositorio incluyendo todas las ramas. 
     "git log --graph --all --oneline"
+    <img src="Screenshot from 2021-11-08 15-32-52.png">
 
 Ejercicio 7
-    • Cambiar a la rama bibliografía. 
+    • Cambiar a la rama bibliografía.
+    " git checkout bibliografia"
+    
     • Crear el fichero bibliografia.txt y añadir la siguiente referencia: 
       Chacon, S. and Straub, B. Pro Git. Apress.
+      "cat > bibliografia.txt
+      Chacon, S. and Straub, B. Pro Git. Apress."
+	"Ctrl+D" para guardar los cambios.
+
     • Añadir los cambios a la zona de intercambio temporal. 
+    	"git add ."
+    
     • Hacer un commit con el mensaje “Añadida primera referencia bibliográfica.” 
+    "git commit -m "Añadida primera referencia bibliográfica."
+    
     • Mostrar la historia del repositorio incluyendo todas las ramas. 
+    "git log --graph --all --oneline"
+    <img src="Screenshot from 2021-11-08 15-36-00.png">
 
 Ejercicio 8
     • Fusionar la rama bibliografía con la rama main. 
+    "git checkout main"
+    "git merge bibliografia"
+    
     • Mostrar la historia del repositorio incluyendo todas las ramas. 
+    "git log --graph --all --oneline"
     • Eliminar la rama bibliografía. 
+    "git branch D- bibliografia"
     • Mostrar de nuevo la historia del repositorio incluyendo todas las ramas. 
+    "git log --graph --all --oneline"
+    <img src:"Screenshot from 2021-11-08 15-46-41.png">
 
 Ejercicio 9
     • Crear la rama bibliografía. 
+    "git branch bibliografia"
+    
     • Cambiar a la rama bibliografía. 
+    "git checkout bibliografia"
+    
     • Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias: 
-Scott Chacon and Ben Straub. Pro Git. Apress.
-Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014)
-    • Cambiar a la rama main. 
+	Scott Chacon and Ben Straub. Pro Git. Apress.
+	Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014)
+	" cat > bibliografia.txt "
+	"Crtl+D" para guardar
+    
+    •Cambiar a la rama main. 
+    "git checkout main"
+    
     • Cambiar el fichero bibliografia.txt para que - contenga las siguientes referencias: 
-Chacon, S. and Straub, B. Pro Git. Apress.
-Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
-    • Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia bibliográfica.” 
-    • Fusionar la rama bibliografía con la rama main. 
-    • Resolver el conflicto dejando el fichero bibliografia.txt con las referencias: 
-Chacon, S. and Straub, B. Pro Git. Apress.
-Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
-Hodson, R. Ry’s Git Tutorial. Smashwords (2014)
+	Chacon, S. and Straub, B. Pro Git. Apress.
+	Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
+	"cat > bibliografia.txt"
+	
+    • Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Añadida nueva referencia 	bibliográfica.” 
+    "git commit -a -m "Añadida nueva referencia bibliográfica.""
+   
+   • Fusionar la rama bibliografía con la rama main. 
+   "git merge bibliografia"
+   
+   • Resolver el conflicto dejando el fichero bibliografia.txt con las referencias: 
+	Chacon, S. and Straub, B. Pro Git. Apress.
+	Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
+	Hodson, R. Ry’s Git Tutorial. Smashwords (2014)
+	"git nano bibliografia"
+	"cat > bibliografia.txt"
+    
     • Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Resuelto conflicto de bibliografía.” 
+    " git commit -a -m "Solucionado conflicto bibliografía."
+    
+   
     • Mostrar la historia del repositorio incluyendo todas las ramas. 
+    "git log --graph --all --oneline"
+    <img src= "Screenshot from 2021-11-08 15-46-41.png">

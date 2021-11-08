@@ -96,11 +96,13 @@ Ejercicio 7
     • Añadir los cambios a la zona de intercambio temporal. 
     • Hacer un commit con el mensaje “Añadida primera referencia bibliográfica.” 
     • Mostrar la historia del repositorio incluyendo todas las ramas. 
+
 Ejercicio 8
     • Fusionar la rama bibliografía con la rama main. 
     • Mostrar la historia del repositorio incluyendo todas las ramas. 
     • Eliminar la rama bibliografía. 
     • Mostrar de nuevo la historia del repositorio incluyendo todas las ramas. 
+
 Ejercicio 9
     • Crear la rama bibliografía. 
     • Cambiar a la rama bibliografía. 

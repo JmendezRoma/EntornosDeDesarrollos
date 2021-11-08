@@ -1,6 +1,6 @@
 En mi caso realice una clonacion del repositorio remoto ttps://github.com/jpexpositoh/libro mediante los siguientes comando: “git 
 clone https://github.com/jpexposito/libro.git , cd libro”<br>
-<img src = "Screenshot from 2021-11-08 14-54-24.png">
+<img src = "EntornosDeDesarrollos/imagenescomandosgitavanzados/Screenshot from 2021-11-08 14-54-24.png">
 
 Ejercicio 1 <br>
     • Mostrar el historial de cambios del repositorio.  <br>
